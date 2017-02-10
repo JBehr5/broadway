@@ -5,6 +5,9 @@ html {
 
 .header {
 	background-image: url("../resources/images/the-flatiron-building.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
 	width: 100%;
 }
 
@@ -12,12 +15,14 @@ html {
 	color: white;
 	font-weight: bold;
 	font-size: 70px;
+	padding-top: 10px;
 }
 
 .header a {
 	display: block;
 	color: white;
 	font-size: 18px;
+	margin-bottom: 1%;
 }
 
 .processSection h2 {
@@ -36,6 +41,9 @@ html {
 
 .designedInSection {
 	background-image: url("../resources/images/the-flatiron-building.jpg");	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .designedInSection h3 {
@@ -45,7 +53,7 @@ html {
 }
 
 .footer {
-	background-image: url("../resources/images/the-flatiron-building.jpg");
+	background-color: dimgray;
 	color: white;
 	text-align: left;
 }
